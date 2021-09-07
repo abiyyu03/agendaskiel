@@ -41,18 +41,18 @@
                       <label for="email" class="control-label sr-only">Email</label>
                       <input name="email" type="email" class="form-control" id="email" value="{{old('email')}}" placeholder="Email">
                       @error('email')
-                        <span class="alert-danger" role="alert">
+                        <div class="alert alert-danger" role="alert">
                             {{ $message }}
-                        </span>
+						</div>
                       @enderror
                     </div>
                     <div class="form-group">
                       <label for="password" class="control-label sr-only is-invalid">Password</label>
                       <input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="password" value="" placeholder="Password">
                       @error('password')
-                        <span class="alert alert-danger invalid-feedback" role="alert">
+                        <div class="alert alert-danger invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
-                        </span>
+						</div>
                       @enderror
                     </div>
                     <!-- <div class="form-group row">

@@ -1,5 +1,8 @@
 body{
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  background-image: url(/frontend/images/smkn1gnp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Assistant', sans-serif;
   color: #071C4D;
 }
