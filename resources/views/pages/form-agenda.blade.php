@@ -6,7 +6,7 @@
     <div class="container bg-light">
         <div class="text-center">
             <img
-                src="{{ url('frontend/images/HeaderS.jpg') }}"
+                src="{{ url('frontend/images/Header.png') }}"
                 alt="Header"
                 class="w-100 mb-0 mt-3"
                 />

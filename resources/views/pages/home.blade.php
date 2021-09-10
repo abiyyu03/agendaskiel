@@ -14,7 +14,7 @@
                 <a href="{{ url('login') }}" class="btn btn-get-started px-4 mt-4">LOGIN !</a>
             @endguest
             @auth
-                <a href="{{ route('form-agenda') }}" class="btn btn-get-started px-4 mt-4"><i class="fas fa-pencil-alt"></i>&nbsp;ISI AGENDA</a>
+                <a href="{{ route('form-agenda') }}" class="btn btn-get-started px-3 mt-4"><i class="fas fa-pencil-alt"></i>&nbsp;ISI AGENDA</a>
             @endauth
     </header>  
 @endsection

@@ -52,7 +52,7 @@
                 </div>
 
                 <!-- Desktop Button -->
-                <div class="form-inline my-2 my-lg-0 d-none d-md-block mr-2">
+                <div class="form-inline my-2 my-lg-0 d-none d-md-block">
                     <a href="#">
                         <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4 delete" keluar="keluar" type="submit">
                             Keluar
